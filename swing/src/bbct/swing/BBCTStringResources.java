@@ -119,6 +119,7 @@ public class BBCTStringResources {
         public static final String CARD_COUNT_LABEL = "Card Count:";
         public static final String PLAYER_NAME_LABEL = "Player Name:";
         public static final String PLAYER_POSITION_LABEL = "Player Position:";
+        public static final String DELETE_CARD_LABEL = "Delete this card";
 
         private LabelResources() {
         }
@@ -141,6 +142,7 @@ public class BBCTStringResources {
         public static final String FIND_CARDS_BUTTON = "Find Cards";
         public static final String ABOUT_BUTTON = "About";
         public static final String EXIT_BUTTON = "Exit";
+        public static final String DELETE_BUTTON = "Delete";
 
         private ButtonResources() {
         }
@@ -178,9 +180,20 @@ public class BBCTStringResources {
         public static final String CLOSE_ERROR_TITLE = "Clean Up Error";
         public static final String IO_ERROR_TITLE = "I/O Error";
         public static final String INPUT_ERROR_TITLE = "Invalid Input";
-        public static final String NO_CARDS_FOUND_ERROR_TITLE = "No cards found.";
+        public static final String NO_CARDS_FOUND_ERROR_TITLE = "No Cards Found";
+        public static final String INITIALIZATION_ERROR_TITLE = "Initialization Error";
+        public static final String UNEXPECTED_EXCEPTION_ERROR_TITLE = "Unexpected Exception";
 
         private ErrorResources() {
+        }
+    }
+
+    public static class DialogResources {
+
+        public static final String DELETE_MULTIPLE_CARD_PROMPT = "You are about to delete %d cards. Are you sure?";
+        public static final String DELETE_SINGLE_CARD_PROMPT = "You are about to delete this card. Are you sure?";
+
+        private DialogResources() {
         }
     }
 
